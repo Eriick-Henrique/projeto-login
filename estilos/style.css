@@ -43,7 +43,10 @@ section#login {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 
+    transition: width 0.3s, heigt 0.3s;
+    transition-timing-function: ease;
 }
+
 
 section#login > div#imagem {
     background: var(--lilas) url(../img/pexels-hugosykes-27666751.jpg);
