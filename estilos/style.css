@@ -19,7 +19,8 @@
 }
 
 body, html {
-    background-color: var(--lilas);
+    
+     background-image: linear-gradient(to top, var(--verde), var(--lilas));
     height: 100vh;
 
 }
@@ -49,7 +50,7 @@ section#login {
 
 
 section#login > div#imagem {
-    background: var(--lilas) url(../img/pexels-hugosykes-27666751.jpg);
+    background: var(--lilas) url(../img/imagem-formulario.jpg);
     background-size: cover;
     height: 200px;
     background-position: bottom center;
@@ -60,9 +61,13 @@ section#login > div#formulario {
     padding: 10px;
 }
 
-#iemail {
-    background-color: var(--lilas);
-    padding: 7px;
-    border-radius: 10px;
-    
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+div#formulario > p {
+    font-size: 0.8em;
+
+}
+
